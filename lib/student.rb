@@ -23,10 +23,10 @@ class Student
 
   def save
 
-    sql = <<-SQL 
+    sql = <<-SQL
     INSERT INTO songs (name, grade)
     VALUES (?, ?)
-  end 
+  end
 
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
